@@ -26,7 +26,7 @@ const options = {
   },
 };
 
-//setInterval(getprices , 2500);
+setInterval(getprices , 2500);
 //------------------------------------------------------------------------------------
 
 // Function to fetch and display user-entered crypto prices
