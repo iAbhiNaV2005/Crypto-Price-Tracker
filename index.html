@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Price Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" alt="Crypto Price Tracker Logo" class="icon">
+            <ul>
+                <li><a href="https://www.binance.com/en/markets/overview" target="_blank">Market</a></li>
+                <li class="tooltip">Features</a><span class="tooltiptext">
+                    <ul class="tooltip-list">
+                    <li>Instant Prices</li>
+                    <li>Continuous Updation</li>
+                    <li>Open Source</li>
+                    <li>Custom Coin Select</li>
+                    </ul>
+                </span></li>
+                <li><a href="#">WhitePapers</a></li>
+                <li class="tooltip"><a  href="#">About Me</a><span class="tooltiptext">Hi User, I am Abhinav Mitra, regular trading enthusiast , an aspiring coder.  This is my Crypto currency website</span></li>
+            </ul>
+            <a href="#" class="btn">EN</a>
+        </nav>
+        <main>
+            <div class="content">
+                <h1>See Live your favourite<br><span>CRYPTO</span> Prices</h1>
+                <p>Add your favourites cryptos on your screen</p>
+                <a href="https://docs.google.com/spreadsheets/d/1wTTuxXt8n9q7C4NDXqQpI3wpKu1_5bGVmP9Xz0XGSyU/edit?gid=0#gid=0" target="_blank" class="btn">Explore more</a>
+            </div>
+            <div class="coinlist">
+                <div class="coin">
+                    <img src="./images/bitcoin.png" alt="Bitcoin">
+                    <div>
+                        <h3>$<span id="bitcoin">00</span></h3>
+                        <p>Bitcoin</p>
+                    </div>
+                </div>
+                <div class="coin">
+                    <img src="./images/ethereum.png" alt="Ethereum" >
+                    <div>
+                        <h3>$<span id="ethereum">00</span></h3>
+                        <p>Ethereum</p>
+                    </div>
+                </div>
+                <div class="coin">
+                    <img src="./images/solana-sol-logo.png" alt="Solana" >
+                    <div>
+                        <h3>$<span id="solana">00</span></h3>
+                        <p>Solana</p>
+                    </div>
+                </div>
+            </div>
+            <div class="coinlist2">
+                <div class="coin2" >
+                    <img src="./images/plus.png" >
+                    <h3><span id="custom1"></span></h3><p id="coinname">Add Coin</p>
+                </div>
+                  <div class="coin2" >
+                    <img src="./images/plus.png" >
+                    <h3><span id="custom1"></span></h3><p>Add Coin</p>
+                </div>
+                <div class="coin2" >
+                    <img src="./images/plus.png" >
+                    <h3><span id="custom1"></span></h3><p>Add Coin</p>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

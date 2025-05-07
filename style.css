@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh; 
+    background: url(./images/background.webp) no-repeat center center/cover;
+    color: #fff;
+    padding: 0 7%;
+}
+
+nav {
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+.icon{
+    width: 50px;
+    height: 50px;
+}
+
+nav ul {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none; 
+    font-weight: 650;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+  
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 150px;
+    background-color: grey;
+    color: #fff;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 130%;
+    left: 60%;
+    margin-left: -60px; 
+}
+  
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent white transparent;
+}
+  
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+
+.tooltip-list {
+    list-style-type: disc; /* Keeps default bullet points */
+   
+    display: block; /* Ensures each item stays on a new line */
+}
+
+.tooltip-list li {
+    display: block; /* Each item appears on a separate line */
+    font-size: 16px;
+    margin-bottom: 5px; /* Adds spacing between items */
+}
+
+
+.logo {
+    width: 50px;
+    cursor: pointer;
+}
+
+.btn {
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    border-radius: 20px;
+    text-align: center;
+    transition: background 0.5s, color 0.3s; 
+}
+
+.btn:hover {
+    background: #fff;
+    color: #000;
+}
+
+.content {
+    margin-top: 3%;
+    max-width: 600px; 
+}
+
+.content h1 {
+    font-size: clamp(35px, 5vw, 60px);
+    margin-bottom: 15px;
+}
+
+.content h1 span {
+    color: #ff960b;
+}
+
+.content p {
+    line-height: 1.6; 
+    font-size: clamp(18px, 2vw, 14px);
+    margin-bottom: 20px; 
+}
+
+.content .btn {
+    display: inline-block;
+    margin-top: 30px;
+    background: #ff960b;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 30px;
+    transition: background 0.3s; 
+}
+.content .btn:hover{
+    background: #dc820d;
+}
+
+
+.coin , .coin2 {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #ff960b;
+    border: 1px solid #fff;
+    padding: 15px 20px; 
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.coin img , .coin2 img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.coin h3, .coin2 h3 {
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.coinlist {
+    position: absolute;
+    right: 10%;
+    bottom: 160px;
+    display: flex;
+    gap: 15px;
+}
+.coinlist2 {
+    position: absolute;
+    right: 10%;
+    bottom: 70px;
+    display: flex;
+    gap: 15px;
+}
+.coindata{
+    font-size: 14px;
+    width: 140px;
+    height: 70px;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1); 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+
+}
+
+.crypto-name {
+    font-size: 14px;
+    color: #ff960b;
+}
+
+.crypto-price {
+    color: #fff;
+
+}
+
+
