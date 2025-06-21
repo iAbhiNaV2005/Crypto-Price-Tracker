@@ -19,7 +19,7 @@ async function getprices() {
     }
 }
 
-setInterval(getprices , 2500);
+setInterval(getprices , 1000);
 //------------------------------------------------------------------------------------
 async function fetchCryptoPrice(symbol) {
   try {
@@ -71,6 +71,6 @@ setInterval(async () => {
       coin.element.querySelector(".crypto-price").textContent = `$${price}`;
     }
   }
-}, 2500);
+}, 1000);
 
 
