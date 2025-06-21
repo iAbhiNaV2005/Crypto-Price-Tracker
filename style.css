@@ -198,13 +198,14 @@ nav ul li a {
 }
 
 .crypto-name {
-    font-size: 14px;
+    font-weight: bold;
+    font-size: 16px;
     color: #ff960b;
 }
 
 .crypto-price {
     color: #fff;
-
+    font-weight: bold;
 }
 
 
